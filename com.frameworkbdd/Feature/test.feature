@@ -17,9 +17,9 @@
 ## (Comments)
 #Sample Feature Definition Template
 @tag
-Feature: Login Action
+Feature: User can search products
 
-Scenario: Successful Login with Valid Credentials
+Scenario: Search product
 	Given User is on Home Page
 	When User search for "PAN" product
 	Then Title "PAN" is displayed
